@@ -20,18 +20,13 @@
     "@angular/platform-browser-dynamic": "~11.2.0",
     "@angular/router": "~11.2.0",
     "@capacitor/core": "2.4.7",
-<<<<<<< HEAD
-    "@ionic-native/google-plus": "^5.33.0",
-    "@ionic-native/sqlite": "^5.32.1",
-    "@ionic/angular": "^5.5.2",
-    "@ionic/pwa-elements": "^3.0.2",
-=======
     "@ionic-native/core": "^5.33.1",
     "@ionic-native/google-plus": "^5.33.0",
     "@ionic-native/sqlite": "^5.33.1",
     "@ionic-native/sqlite-porter": "^5.33.1",
     "@ionic/angular": "^5.5.2",
->>>>>>> ff25fbb3b24b32558d7fbc1affbfcadedcef7570
+    "@ionic/pwa-elements": "^3.0.2",
+    "classlist.js": "^1.1.20150312",
     "cordova-android": "9.1.0",
     "cordova-sqlite-storage": "^6.0.0",
     "rxjs": "~6.6.0",
@@ -76,12 +71,8 @@
     "karma-jasmine-html-reporter": "^1.5.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
-<<<<<<< HEAD
-    "typescript": "~4.0.2"
-=======
     "typescript": "~4.0.2",
     "uk.co.workingedge.cordova.plugin.sqliteporter": "^1.1.1"
->>>>>>> ff25fbb3b24b32558d7fbc1affbfcadedcef7570
   },
   "description": "An Ionic project",
   "cordova": {
@@ -93,20 +84,12 @@
       "cordova-plugin-ionic-webview": {
         "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
       },
-<<<<<<< HEAD
-      "cordova-plugin-ionic-keyboard": {}
-=======
       "cordova-plugin-ionic-keyboard": {},
       "cordova-sqlite-storage": {},
       "uk.co.workingedge.cordova.plugin.sqliteporter": {}
->>>>>>> ff25fbb3b24b32558d7fbc1affbfcadedcef7570
     },
     "platforms": [
       "android"
     ]
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ff25fbb3b24b32558d7fbc1affbfcadedcef7570

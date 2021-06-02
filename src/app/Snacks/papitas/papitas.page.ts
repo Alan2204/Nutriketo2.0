@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-
-=======
 import { FormGroup, FormBuilder } from "@angular/forms";
 import { DbService } from '../../services/db.service';
->>>>>>> ff25fbb3b24b32558d7fbc1affbfcadedcef7570
 @Component({
   selector: 'app-papitas',
   templateUrl: './papitas.page.html',
@@ -12,11 +8,6 @@ import { DbService } from '../../services/db.service';
 })
 export class PapitasPage implements OnInit {
 
-<<<<<<< HEAD
-  constructor() { }
-
-  ngOnInit() {
-=======
   mainForm: FormGroup;
   Data: any[] = []
 
@@ -47,7 +38,6 @@ export class PapitasPage implements OnInit {
     ).then((res) => {
       this.mainForm.reset();
     })
->>>>>>> ff25fbb3b24b32558d7fbc1affbfcadedcef7570
   }
 
 }

@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-=======
+
 import { FormGroup, FormBuilder } from "@angular/forms";
 import { DbService } from '../../services/db.service';
->>>>>>> ff25fbb3b24b32558d7fbc1affbfcadedcef7570
+
 
 @Component({
   selector: 'app-omelette-p',
@@ -12,11 +11,8 @@ import { DbService } from '../../services/db.service';
 })
 export class OmelettePPage implements OnInit {
 
-<<<<<<< HEAD
-  constructor() { }
 
-  ngOnInit() {
-=======
+
   mainForm: FormGroup;
   Data: any[] = []
 
@@ -47,7 +43,7 @@ export class OmelettePPage implements OnInit {
     ).then((res) => {
       this.mainForm.reset();
     })
->>>>>>> ff25fbb3b24b32558d7fbc1affbfcadedcef7570
+
   }
 
 }

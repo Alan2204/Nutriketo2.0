@@ -21,6 +21,8 @@ export class DbService {
     private httpClient: HttpClient,
     private sqlPorter: SQLitePorter,
   ) {
+
+  
     this.platform.ready().then(() => {
       this.sqlite.create({
         name: 'positronx_db.db',
@@ -32,6 +34,8 @@ export class DbService {
       });
     });
    }
+
+   
 
    dbState() {
     return this.isDbReady.asObservable();
