@@ -37,7 +37,6 @@
         </ol>
       </ion-card-content>
     </ion-card>
-  </div>
 
   <form [formGroup]="mainForm" (ngSubmit)="storeData()">
     <ion-item>
@@ -53,13 +52,13 @@
 
     <ion-row>
       <ion-col>
-        <ion-button type="submit" color="primary" shape="full" expand="block">
+        <ion-button type="submit" color="medium" shape="full" expand="block">
           Añadir Comentario
         </ion-button>
       </ion-col>
     </ion-row>
   </form>
-
+</div>
   <ion-list>
     <ion-list-header>
       Comentarios
@@ -72,5 +71,4 @@
       </ion-label>
     </ion-item>
   </ion-list>
-
 </ion-content>

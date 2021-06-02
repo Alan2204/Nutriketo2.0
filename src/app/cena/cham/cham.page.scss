@@ -42,9 +42,27 @@ ion-content{
         line-height: 28px;
         color: #000000; 
     }
+
+    ion-item{
+        --background: #c2ddb9;
+        font-family: Esteban;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #000000;
+    }
+
+}
+
+ion-list-header{
+    --background: #c2ddb9;
+    font-family: Esteban;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
 }
 
 ion-toolbar{
     background-color: rgb(50, 114, 63);
 }
-
