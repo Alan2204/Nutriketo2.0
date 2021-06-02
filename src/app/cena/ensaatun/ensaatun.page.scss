@@ -1,0 +1,50 @@
+ion-content{
+    --background: rgb(107, 180, 113);
+}
+
+.diseño{
+    p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 19px;
+        line-height: 28px;
+        color: #424242; 
+    }
+    
+    li{
+    
+        font-family: Esteban;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000000;
+    }
+
+    ion-card{
+        background-color: #c2ddb9;
+    }
+
+    ion-list{
+        font-family: Esteban;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        
+    }
+    h1{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 28px;
+        color: #000000; 
+    }
+}
+
+ion-toolbar{
+    background-color: rgb(50, 114, 63);
+}
+

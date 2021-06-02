@@ -1,0 +1,38 @@
+ion-content{
+    --background: #c2ddb9;
+}
+
+.Dimg{
+
+    p{
+        font-family: Esteban;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #000000; 
+    }
+
+    img{
+
+        height: 100px;
+        width: 150px;
+       
+    }
+
+    ion-card-content{
+        min-height: 185px;
+        max-height: 185px;
+        min-width: 152px;
+        max-width: 152px;
+        background-color: rgb(241,248,226);
+        margin-left: 8px;
+        box-shadow: -1px 1px 10px rgba($color: #2c2c2c, $alpha: 8.0);
+    }
+
+}
+
+ion-toolbar{
+    background-color: #519839;
+}

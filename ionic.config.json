@@ -1,0 +1,10 @@
+{
+  "name": "Nutriketo",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}
