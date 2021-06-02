@@ -58,5 +58,43 @@
         </ol>
       </ion-card-content>
     </ion-card>
+<<<<<<< HEAD
   </div>
 </ion-content>
+=======
+    <form [formGroup]="mainForm" (ngSubmit)="storeData()">
+      <ion-item>
+        <ion-label position="floating">Usuario</ion-label>
+        <ion-input formControlName="Usuario" type="text" required></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label position="floating">Comentario</ion-label>
+        <ion-input formControlName="Comentario" type="text" required>
+        </ion-input>
+      </ion-item>
+  
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="medium" shape="full" expand="block">
+            Añadir Comentario
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </div>
+    <ion-list>
+      <ion-list-header>
+        Comentarios
+      </ion-list-header>
+  
+      <ion-item lines="inset" *ngFor="let data of Data">
+        <ion-label>
+          <h5>{{data.Usuario}}</h5>
+          <p>{{data.Comentario}}</p>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+  
+>>>>>>> ff25fbb3b24b32558d7fbc1affbfcadedcef7570

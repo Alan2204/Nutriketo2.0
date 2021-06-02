@@ -113,10 +113,13 @@ const routes: Routes = [
     path: 'comida',
     loadChildren: () => import('./comida/comida.module').then( m => m.ComidaPageModule)
   },
+<<<<<<< HEAD
   {
     path: 'galeria',
     loadChildren: () => import('./galeria/galeria.module').then( m => m.GaleriaPageModule)
   },
+=======
+>>>>>>> ff25fbb3b24b32558d7fbc1affbfcadedcef7570
 ];
 @NgModule({
   imports: [
