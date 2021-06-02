@@ -17,9 +17,7 @@ export class FrittataPage implements OnInit {
   constructor(
 
     private db: DbService,
-    public formBuilder: FormBuilder,
-    private toast: ToastController,
-    private router: Router
+    public formBuilder: FormBuilder
   ) { }
 
   ngOnInit() {
