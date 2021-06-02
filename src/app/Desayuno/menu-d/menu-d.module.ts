@@ -13,7 +13,7 @@ import { MenuDPage } from './menu-d.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    MenuDPageRoutingModule
+    MenuDPageRoutingModule,
   ],
   declarations: [MenuDPage]
 })

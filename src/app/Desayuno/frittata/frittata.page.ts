@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder } from "@angular/forms";
 import { DbService } from '../../services/db.service';
-import { ToastController } from '@ionic/angular';
-import { Router } from "@angular/router";
+
 
 @Component({
   selector: 'app-frittata',
