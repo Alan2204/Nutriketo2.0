@@ -18,7 +18,7 @@ export class FrittataPage implements OnInit {
     private db: DbService,
     public formBuilder: FormBuilder
   ) { }
-
+//Desde aqui se inicia un formulario para agregar los datos a la db
   ngOnInit() {
     this.db.dbState().subscribe((res) => {
       if(res){
@@ -33,7 +33,7 @@ export class FrittataPage implements OnInit {
       Comentario: ['']
     })
   }
-
+//Funcion para almacenar los datos en el momento en que se de click en el boton de comentar
   storeData() {
     this.db.addComentario(
       this.mainForm.value.Usuario,

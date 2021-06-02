@@ -40,7 +40,7 @@ export class DbService {
   fetchComentarios(): Observable<ComentService[]> {
     return this.ComentariosList.asObservable();
   }
-
+  //La funcion getComentarioData es para acceder a los datos de la base de datos utilizando un Http get para despues susbcribir la respuesta y al final poner el estado de la db en true.
   getComentarioData() {
     this.httpClient.get(
       'assets/dump.sql', 
@@ -54,7 +54,7 @@ export class DbService {
         .catch(error => console.error(error));
     });
   }
-
+//Funcion que sirve para poder leer todos los datos de la tabla TablaComentarios
   getComentarios(){
     return this.storage.executeSql('SELECT * FROM TablaComentarios', []).then(res => {
       let items: ComentService[] = [];
@@ -71,7 +71,7 @@ export class DbService {
     });
   }
 
-  // Add
+  // Funcion para poder agregar un nuevo comentario
   addComentario(Usuario,Comentario) {
     let data = [Usuario, Comentario];
     return this.storage.executeSql('INSERT INTO TablaComentarios (Usuario, Comentario) VALUES (?, ?)', data)
@@ -80,13 +80,4 @@ export class DbService {
     });
   }
 
-  getComentario(id): Promise<ComentService> {
-    return this.storage.executeSql('SELECT * FROM TablaComentarios WHERE id = ?', [id]).then(res => { 
-      return {
-        id: res.rows.item(0).id,
-        Usuario: res.rows.item(0).Usuario,  
-        Comentario: res.rows.item(0).Comentario
-      }
-    });
-  }
 }
